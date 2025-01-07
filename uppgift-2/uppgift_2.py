@@ -5,4 +5,4 @@ def funktions_namn(variabel_namn: datatyp) -> returtyp:
     """
     Skriv beskrivning här.
     """
-    
+    scsa
