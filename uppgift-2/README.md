@@ -13,5 +13,5 @@ def sum_list(numbers: List[int]) -> int:
     """
     Returnerar summan av alla siffror i listan.
     """
-    pass # Ta bort denna rad och skriv din kod här
+   
 ```
