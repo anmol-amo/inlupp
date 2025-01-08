@@ -4,19 +4,13 @@
 # Exempel: def is_odd(x: int) -> bool:
 # Förklaring: Funktionens namn är is_odd och tar en parameter x av datatypen int. Funktionen returnerar en bool.
 
-def is_odd(number: int) -> bool:
+def is_odd(x: int) -> bool:
+    return x % 2 != 0
  
-    TrueOrFalse = number % 2 != 0
-
     """ 
-    Returerar True om talet är jämnt , annars false
+ Returerar True om talet är jämnt , annars false
     """
- 
-    return TrueOrFalse
+
 
 print(is_odd(2))
-
 print(is_odd(3))
-print(is_odd(5))
-
-hej
