@@ -6,7 +6,7 @@
 
 with open("data.txt", "a") as file:
    file.write("Anna, 30, Göteborg\n")
-   file.write("björn, 30, stockholm")
+   file.write("björn, 30, stockholm\n")
 
 with open("data.txt", "r") as file:
    print(file.read())
