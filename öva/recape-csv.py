@@ -22,6 +22,7 @@ with open("data.csv") as file:
           letaEfter = "cecilia"
           if letaEfter in line:
                print(f"{letaEfter} är bäst!")
+               
 
 
 
